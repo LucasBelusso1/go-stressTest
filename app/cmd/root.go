@@ -38,7 +38,6 @@ var rootCmd = &cobra.Command{
 		if err != nil {
 			panic("invalid URL")
 		}
-
 		requestUrl = parsedUrl.String()
 
 		if totalRequestsQty <= 0 {
